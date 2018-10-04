@@ -2,7 +2,7 @@
 
 body {
   font-family: "PT Serif";
-  background-color: #f3f3f3;
+  background-color: #f8f8f8;
   color: #222222;
 }
 
@@ -51,9 +51,30 @@ header {
   border-bottom: 2px solid #007bff;
 }
 
+.tagline-container {
+  background: #322c4c;
+}
+
 .tagline {
   font-size: 1.75rem;
-  margin: 5rem 9rem;
+  padding: 9rem;
+  color: white;
+}
+
+.specialty-icon .brackets,
+.specialty-icon .fa {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 48px;
+}
+
+.specialty-icon {
+  float: left;
+}
+
+.specialty-description {
+  margin-left: 4rem;
+  margin-right: 1rem;
 }
 
 .project-cta {
@@ -135,13 +156,9 @@ footer {
   display: block;
 }
 
-.services .service {
-  padding: 2rem 0;
-}
-
 @media (max-width: 768px) {
   .tagline {
-    margin: 3rem 0.5rem;
+    padding: 3rem 0.5rem;
   }
 
   .header-name,
