@@ -55,6 +55,10 @@ header {
   background: #322c4c;
 }
 
+.project tagline-container {
+  background: #322c4c;
+}
+
 .tagline {
   font-size: 1.75rem;
   padding: 9rem;
