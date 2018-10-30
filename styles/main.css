@@ -160,6 +160,19 @@ footer {
   display: block;
 }
 
+.contact-form {
+}
+/* 
+.form-group {
+  display: block;
+}
+
+.form-group .form-control {
+  display: block;
+  width: 100%;
+
+} */
+
 @media (max-width: 768px) {
   .tagline {
     padding: 3rem 0.5rem;
